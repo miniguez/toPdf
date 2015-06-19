@@ -1,0 +1,6 @@
+#!/bin/sh
+#export CLOUDCONVERT_API_KEY=Su_Llave
+#cloudconvert -f pdf /var/www/html/test/adjuntos/$1 -o /var/www/html/test/adjuntos/
+oowriter --convert-to pdf $1$2 -outdir $1 --nologo --invisible
+
+
